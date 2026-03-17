@@ -33,7 +33,7 @@ Dataset was loaded, inspected, and cleaned down to 392688 transaction samples
 - Feature Extraction: create new Total feature (total spent on product per transaction)
      
 - Outliers: clip outliers at the 0.95 quantile to achieve <2 skewness for Quantity, UnitPrice, and Total
-        - Feature histograms were used to visualize skewness while determining clip threshold
+      - Feature histograms were used to visualize skewness while determining clip threshold
 
 ## K-Means RFM Customer Segmentation
 **RFM** (Recency, Frequency, Monetary Value) metrics were calculated and **standardized** for each of the 4338 unique customers

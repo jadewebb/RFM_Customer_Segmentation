@@ -42,7 +42,7 @@ Dataset was loaded, inspected, and cleaned down to 392688 transaction samples
 
 ![K-Means Optimal Cluster Count Visualizations](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means%20Optimal%20Cluster%20Counts.png)
 
-Two K-Means models (k=4 and k=5) were used to cluster the RFM data, with clusters visualized in 3D and in 2D via **t-SNE embedding**
+**Two K-Means models (k=4 and k=5)** were used to cluster the RFM data, with clusters visualized in 3D and in 2D via **t-SNE embedding**
 
 ![K-Means Clusterings - 3D](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means%20Clusterings%20-%203D.png)
 

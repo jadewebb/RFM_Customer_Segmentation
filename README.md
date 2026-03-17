@@ -36,20 +36,29 @@ Dataset was loaded, inspected, and cleaned down to 392688 transaction samples
         - Feature histograms were used to visualize skewness while determining clip threshold
 
 ## K-Means RFM Customer Segmentation
-RFM (Recency, Frequency, Monetary Value) metrics were calculated and standardized for each of the 4338 unique customers
+RFM (Recency, Frequency, Monetary Value) metrics were calculated and **standardized** for each of the 4338 unique customers
 
-Silhouette and Elbow methods were used to suggest optimal K-Means cluster counts of k=4 and k=5
+**Silhouette** and **Elbow** methods were used to suggest optimal K-Means cluster counts of k=4 and k=5
 
 ![K-Means Optimal Cluster Count Visualizations](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means%20Optimal%20Cluster%20Counts.png)
 
-2 K-Means models (k=4 and k=5) were used to cluster the RFM data, with clusters visualized in 3D and in 2D via t-SNE embedding
+Two K-Means models (k=4 and k=5) were used to cluster the RFM data, with clusters visualized in 3D and in 2D via **t-SNE embedding**
 
 ![K-Means Clusterings - 3D](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means%20Clusterings%20-%203D.png)
 
 ![K-Means Clusterings - 2D Embeddings](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means%20Clusterings%20-%202D%20Embeddings.png)
 
+## Segmentation Business Analysis
+The **k=5** K-Means model was selected as the final model based on visual indication that k=5 preserves meaningful subgroups across the spectrum of customers in the low recency region
 
+Five distinct **customer profiles** were identified, analyzed, and visualized based on RFM averages and cluster counts, to obtain actionable business insights based on customer behavior
 
+![RFM Business Analysis - Customer Profiles](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Customer%20Profiles.png)
 
+![RFM Business Analysis - Customer Distribution](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Customer%20Distribution.png)
 
+![RFM Business Analysis - Heatmap](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Heatmap.png)
 
+![RFM Business Analysis - Radar Chart](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Radar%20Chart.png)
+
+![RFM Business Analysis - Bubble Plot](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Bubble%20Plot.png)

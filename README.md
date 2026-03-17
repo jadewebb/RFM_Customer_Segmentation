@@ -49,7 +49,7 @@ Dataset was loaded, inspected, and cleaned down to 392688 transaction samples
 ![K-Means Clusterings - 2D Embeddings](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means%20Clusterings%20-%202D%20Embeddings.png)
 
 ## Segmentation Business Analysis
-The **k=5** K-Means model was selected as the final model based on visual indication that k=5 preserves meaningful subgroups across the spectrum of customers in the low recency region
+The **k=5** K-Means model was selected as the final model based on visual indication that k=5 preserves **meaningful subgroups** across the spectrum of customers in the low recency region
 
 Five distinct **customer profiles** were identified, analyzed, and visualized based on RFM averages and cluster counts, to obtain actionable business insights based on customer behavior
 

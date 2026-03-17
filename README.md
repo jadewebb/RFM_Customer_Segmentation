@@ -4,11 +4,16 @@ RFM customer segmentation using K-Means clustering
 
 Dataset: Online Retail Transaction Dataset from the UC Irvine Machine Learning Repository https://archive.ics.uci.edu/dataset/352/online+retail
 
-     - 541909 transaction samples occurring between 01/12/2010 and 09/12/2011 for a UK-based online retailer
-     - 3 IDs: 
-           - InvoiceNo: unique transaction ID
-           - StockCode: unique product ID
-           - CustomerID: unique customer ID
+    - 541909 transaction samples occurring between 01/12/2010 and 09/12/2011 for a UK-based online retailer
+    
+    - 3 IDs: 
+    
+       - InvoiceNo: unique transaction ID
+       
+       - StockCode: unique product ID
+
+       - CustomerID: unique customer ID
+       
      - 5 Features:
            - Description: product description
            - Quantity: product quantity per transaction
@@ -31,7 +36,7 @@ RFM (Recency, Frequency, Monetary Value) metrics were calculated and standardize
 
 Silhouette and Elbow methods were used to suggest optimal K-Means cluster counts of k=4 and k=5
 
-![K-Means Optimal Cluster Count Visualizations](visualizations/K-Means Optimal Cluster Counts.png)
+![K-Means Optimal Cluster Count Visualizations](Visualizations/K-Means Optimal Cluster Counts.png)
 
 
 

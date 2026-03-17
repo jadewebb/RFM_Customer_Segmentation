@@ -61,6 +61,6 @@ Analysis reveals that this online retail business is relying on a **small number
 
 <img src="https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Heatmap.png" width="600">
 
-![RFM Business Analysis - Radar Chart](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Radar%20Chart.png)
+<img src="https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Radar%20Chart.png" width="600">
 
-![RFM Business Analysis - Bubble Plot](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Bubble%20Plot.png)
+<img src="https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Bubble%20Plot.png" width="600">

@@ -36,7 +36,7 @@ Dataset was loaded, inspected, and cleaned down to 392688 transaction samples
         - Feature histograms were used to visualize skewness while determining clip threshold
 
 ## K-Means RFM Customer Segmentation
-RFM (Recency, Frequency, Monetary Value) metrics were calculated and **standardized** for each of the 4338 unique customers
+**RFM** (Recency, Frequency, Monetary Value) metrics were calculated and **standardized** for each of the 4338 unique customers
 
 **Silhouette** and **Elbow** methods were used to suggest optimal K-Means cluster counts of k=4 and k=5
 

@@ -11,23 +11,23 @@ Dataset: Online Retail Transaction Dataset from the UC Irvine Machine Learning R
       - StockCode: unique product ID
       - CustomerID: unique customer ID
        
-     - 5 Features:
-           - Description: product description
-           - Quantity: product quantity per transaction
-           - InvoiceDate: date and time of transaction
-           - UnitPrice: product price per unit
-           - Country: country where customer resides
+   - 5 Features:
+      - Description: product description
+      - Quantity: product quantity per transaction
+      - InvoiceDate: date and time of transaction
+      - UnitPrice: product price per unit
+      - Country: country where customer resides
 
 Dataset was loaded, inspected, and cleaned down to 392688 transaction samples
 
-     - Cleaning Steps:
-           - Null: drop rows that contain a null value
-           - Duplicates: drop duplicate rows
-           - Format: convert InvoiceDate datatype to DateTime
-           - Impossible Values: drop rows that contain impossible Quantity or UnitPrice values
-           - Feature Extraction: create new Total feature (total spent on product per transaction)
-           - Outliers: clip outliers at the 0.95 quantile to achieve <2 skewness for Quantity, UnitPrice, and Total
-                 - Feature histograms were used to visualize skewness while determining clip threshold
+- Cleaning Steps:
+   - Null: drop rows that contain a null value
+   - Duplicates: drop duplicate rows
+   - Format: convert InvoiceDate datatype to DateTime
+   - Impossible Values: drop rows that contain impossible Quantity or UnitPrice values
+   - Feature Extraction: create new Total feature (total spent on product per transaction)
+   - Outliers: clip outliers at the 0.95 quantile to achieve <2 skewness for Quantity, UnitPrice, and Total
+        - Feature histograms were used to visualize skewness while determining clip threshold
 
 RFM (Recency, Frequency, Monetary Value) metrics were calculated and standardized for each of the 4338 unique customers
 

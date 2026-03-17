@@ -5,6 +5,7 @@ RFM customer segmentation using K-Means clustering
 Dataset: Online Retail Transaction Dataset from the UC Irvine Machine Learning Repository https://archive.ics.uci.edu/dataset/352/online+retail
 
 - 541909 transaction samples occurring between 01/12/2010 and 09/12/2011 for a UK-based online retailer
+  
    - 3 IDs: 
       - InvoiceNo: unique transaction ID
       - StockCode: unique product ID

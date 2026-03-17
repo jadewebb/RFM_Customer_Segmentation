@@ -41,6 +41,7 @@ Silhouette and Elbow methods were used to suggest optimal K-Means cluster counts
 
 ![K-Means Optimal Cluster Count Visualizations](./Visualizations/K-Means Optimal Cluster Counts.png)
 
+https://github.com/jadewebb/RFM_Customer_Segmentation/blob/3ae6523d0e74f744d1000a7e01a19482ceb87d62/Visualizations/K-Means%20Optimal%20Cluster%20Counts.png
 
 
 

@@ -53,7 +53,7 @@ The **k=5** K-Means model was selected as the final model based on visual indica
 
 Five distinct **customer profiles** were identified, analyzed, and visualized based on RFM averages and cluster counts, to obtain actionable business insights based on customer behavior
 
-Analysis reveals that this online retail business is relying on a small number of big spenders, as most customers belong to the At-Risk and Low-Value RFM clusters. This highlights the business value of taking immediate action to win back At-Risk Customers and re-engage Low-Value Customers, as well as retain Champion/VIP Customers, upgrade Loyal Customers, and solidify relationships with Potential Loyalists.
+Analysis reveals that this online retail business is relying on a **small number of big spenders**, as most customers belong to the At-Risk and Low-Value RFM clusters. This highlights the business value of taking **immediate action** to **win back** At-Risk Customers and **re-engage** Low-Value Customers, as well as retain Champion/VIP Customers, upgrade Loyal Customers, and solidify relationships with Potential Loyalists.
 
 ![RFM Business Analysis - Customer Profiles](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Customer%20Profiles.png)
 

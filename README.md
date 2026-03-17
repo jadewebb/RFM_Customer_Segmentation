@@ -39,7 +39,7 @@ RFM (Recency, Frequency, Monetary Value) metrics were calculated and standardize
 
 Silhouette and Elbow methods were used to suggest optimal K-Means cluster counts of k=4 and k=5
 
-![K-Means Optimal Cluster Count Visualizations](https://github.com/jadewebb/RFM_Customer_Segmentation/blob/3ae6523d0e74f744d1000a7e01a19482ceb87d62/Visualizations/K-Means%20Optimal%20Cluster%20Counts.png)
+![K-Means Optimal Cluster Count Visualizations](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/K-Means Optimal Cluster Counts.png)
 
 
 

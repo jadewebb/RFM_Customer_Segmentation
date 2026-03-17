@@ -59,7 +59,7 @@ Analysis reveals that this online retail business is relying on a **small number
 
 ![RFM Business Analysis - Customer Distribution](https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Customer%20Distribution.png)
 
-<img src="https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Heatmap.png" width="600">
+<img src="https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Heatmap.png" width="700">
 
 <img src="https://raw.githubusercontent.com/jadewebb/RFM_Customer_Segmentation/main/Visualizations/RFM%20Business%20Analysis%20-%20Radar%20Chart.png" width="600">
 
